@@ -1,0 +1,15 @@
+img {
+  width: 420px;
+  transform: skew(30deg, 30deg) scale(0.7, 0.9);
+}
+
+/* rotate(valor) */
+/* scale(valorX, valorY) */
+/* skew(valorX, valorY) */
+
+/* Ficar atento com a compatibilidade do navegador */
+/* Pode ser necessário utilizar: */
+
+/* -webkit-transform (Chrome < 36)*/
+/* -ms-transform (Internet Explorer < 10)*/
+/* -moz-transform (Firefox < 16)*/

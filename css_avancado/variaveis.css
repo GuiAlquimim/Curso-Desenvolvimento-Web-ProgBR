@@ -1,0 +1,28 @@
+:root {
+  --var-color: blueviolet;
+  --var-sqrSize: 220px;
+}
+
+.p2 {
+  color: var(--var-color);
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.p4 {
+  color: var(--var-color);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sqr1 {
+  background-color: coral;
+  width: var(--var-sqrSize);
+  height: var(--var-sqrSize);
+}
+
+.sqr2 {
+  background-color: crimson;
+  width: var(--var-sqrSize);
+  height: var(--var-sqrSize);
+}

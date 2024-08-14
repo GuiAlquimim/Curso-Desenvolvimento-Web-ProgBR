@@ -1,0 +1,32 @@
+.container {
+  background-color: darkgray;
+  height: 850px;
+
+  display: flex;
+  flex-direction: row-reverse;
+
+  /* Flex-direction: row */
+  /* Flex-direction: row-reverse */
+  /* Flex-direction: column */
+  /* Flex-direction: column-reverse */
+}
+
+.line {
+  color: #fff;
+  padding: 7px;
+  font-size: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+.l1 {
+  background-color: red;
+}
+
+.l2 {
+  background-color: green;
+}
+
+.l3 {
+  background-color: blue;
+}

@@ -1,0 +1,26 @@
+
+
+#para1{
+  color: hotpink;
+  background-color: aqua;
+}
+
+.fundo-cyan{
+  background-color: cyan;
+}
+
+#sla1{
+  width: 700px;
+  height: 400px;
+  background-color: brown;
+  background-image: url(../images/Fundo_abstrato.jpg);
+  background-position: bottom right;
+  background-size: cover;
+}
+
+
+
+
+
+
+

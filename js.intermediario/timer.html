@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer e intervalo</title>
+  </head>
+  <body>
+    <script>
+      var num = 1;
+      var interval;
+
+      function startNumbers() {
+        let h = document.getElementsByTagName("h1")[0];
+        h.innerHTML = `${h.innerHTML} ${num}`;
+        num++;
+      }
+
+      function startT() {
+        interval = setInterval(startNumbers, 500);
+      }
+
+      function stopT() {
+        window.clearInterval(interval);
+      }
+
+      // function changeColor() {
+      //   let h = document.getElementsByTagName("h1")[0];
+      //   h.style.color = "blue";
+      // }
+    </script>
+
+    <h1>Título</h1>
+    <input type="submit" value="Start" onclick="startT()" />
+    <input type="submit" value="Stop" onclick="stopT()" />
+  </body>
+</html>

@@ -1,0 +1,36 @@
+h1::first-letter {
+  color: blue;
+}
+
+p::first-line {
+  color: red;
+}
+
+/* li::before {
+  content: "A ";
+  color: lightgreen;
+}
+
+li::after {
+  content: " B";
+  color: lightgreen;
+} */
+
+li::before {
+  content: "";
+  background-image: url(../assets/thumbs-up-icon.png);
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-position: right;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+p::selection {
+  background-color: yellow;
+  color: cyan;
+}
